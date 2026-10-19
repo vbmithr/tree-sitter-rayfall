@@ -5,7 +5,7 @@ Rayfall query language. It follows Rayforce's
 [documented syntax](https://github.com/RayforceDB/rayforce/blob/main/docs/docs/language/syntax.md)
 and [runtime parser](https://github.com/RayforceDB/rayforce/blob/main/src/lang/parse.c).
 
-The grammar includes queries for highlighting, indentation, and local
+The grammar includes queries for highlighting, indentation, folding, and local
 bindings. The stable named nodes (`call`, `vector`, `dictionary`, `pair`, and
 the literal nodes) are used by the included native Tree-sitter Emacs mode,
 [`rayfall-mode.el`](rayfall-mode.el).

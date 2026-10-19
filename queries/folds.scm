@@ -1,0 +1,5 @@
+[
+  (call)
+  (vector)
+  (dictionary)
+] @fold
